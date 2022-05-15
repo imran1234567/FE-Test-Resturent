@@ -1,0 +1,139 @@
+.main__banner__header{
+    margin-left: 64px;
+    width: 752px;
+    margin-top: 36px;
+}
+.page__title{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:300;
+    font-size: 54px;
+    color: #333333;
+}
+.resturent__item__title{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:300;
+    font-size: 34px;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.page__description{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight:300;
+    font-size: 22px;
+    color: #666666;
+    line-height: 32px;
+    letter-spacing: 0.92px;
+}
+.filter__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    height: 79px;
+    align-items: center;
+}
+.filter__text{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+}
+
+.filter__left{
+    margin-left: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter__right{
+    margin-right: 64px;
+}
+
+.check__filter{
+    margin-left: 24px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.clear__btn{
+    width: 151px;
+    padding: 11px 16px;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #C8C8C8;
+}
+
+.menu__container{
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-top:64px;
+}
+
+.item__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropbox__filter{
+    width: 193px;
+    margin-left: 33px;
+    margin-right: 33px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    color: #002B56;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3;
+
+}
+
+.checkbox-round:checked {
+    background-color: black;
+}
+
+.checkbox-round:before {
+  position:absolute;
+  content: "\2713";
+  color: white;
+  text-align: center;
+}
+
+.conatiner__loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner__loadmore>.loadmore__btn{
+    width: 416px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: 1px solid #002B56;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #002B53;
+}
